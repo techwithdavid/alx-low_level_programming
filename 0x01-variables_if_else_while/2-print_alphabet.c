@@ -5,12 +5,11 @@
  * A program that prints the alphabets in lowercase
  * Return: Always 0 (Success)
  */
-int main()
+int main(void)
 {
 	int character;
-	character = 'a';
-	
-	while (character <= 'z')
+
+	character = 'a';					  while (character <= 'z')
 	{
 		putchar(character);
 		character++;
