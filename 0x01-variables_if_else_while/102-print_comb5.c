@@ -10,43 +10,43 @@
  */
 int main(void)
 {
-	int char_set1;
-	int f_digit, l_digit;
+	int _char_set1;
+	int _f_digit, _l_digit;
 
-	int char_set2;
-	int f_digit2, l_digit2;
+	int _char_set2;
+	int _f_digit2, _l_digit2;
 
-	char_set1 = 0;
-	while (char_set1 <= 98)
+	_char_set1 = 0;
+	while (_char_set1 <= 98)
 	{
-		f_digit = char_set1 / 10;
-		l_digit = char_set1 % 10;
+		_f_digit = _char_set1 / 10;
+		_l_digit = _char_set1 % 10;
 
-		char_set2 = 0;
+		_char_set2 = 0;
 		while (char_set2 <= 99)
 		{
-			f_digit2 = char_set2 / 10;
-			l_digit2 = char_set2 % 10;
+			_f_digit2 = _char_set2 / 10;
+			_l_digit2 = _char_set2 % 10;
 
 
-			if (char_set1 < char_set2)
+			if (_char_set1 < _char_set2)
 			{
-				putchar('0' + f_digit);
-				putchar('0' + l_digit);
+				putchar('0' + _f_digit);
+				putchar('0' + _l_digit);
 				putchar(' ');
-				putchar('0' + f_digit2);
-				putchar('0' + l_digit2);
+				putchar('0' + _f_digit2);
+				putchar('0' + _l_digit2);
 
-				if (char_set1 != 98)
+				if (_char_set1 != 98)
 				{
 					putchar(',');
 					putchar(' ');
 				}
 			}
 
-			char_set2++;
+			_char_set2++;
 		}
-		char_set1++;
+		_char_set1++;
 
 	}
 
