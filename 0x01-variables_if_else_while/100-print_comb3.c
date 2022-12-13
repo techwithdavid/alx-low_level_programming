@@ -21,8 +21,10 @@ int main(void)
 				putchar('0' + c);
 				
 				if (d + c != 17)
+                                {
 					putchar(',');
 					putchar(' ');
+                                }
 			}
 
 			c++;
