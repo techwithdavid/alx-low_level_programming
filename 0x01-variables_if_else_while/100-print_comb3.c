@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Entry ponit
+ * main - Entry point
  *
  * Return: Always 0 (Success)
  */
@@ -19,12 +19,10 @@ int main(void)
 			{
 				putchar('0' + d);
 				putchar('0' + c);
-
-				if (c + d != 17)
-				{
+				
+				if (d + c != 17)
 					putchar(',');
 					putchar(' ');
-				}
 			}
 
 			c++;
