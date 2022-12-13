@@ -10,11 +10,9 @@
  */
 int main(void)
 {
-	int c_s1;
-	int f_d, l_d;
+	int c_s1, f_d, l_d;
 
-	int c_s2;
-	int f_d2, l_d2;
+	int c_s2, f_d2, l_d2;
 
 	c_s1 = 0;
 	while (c_s1 <= 98)
@@ -43,14 +41,10 @@ int main(void)
 					putchar(' ');
 				}
 			}
-
 			c_s2++;
 		}
 		c_s1++;
-
 	}
-
 	putchar(10);
-
 	return (0);
 }
