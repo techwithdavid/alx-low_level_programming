@@ -26,8 +26,10 @@ int main(void)
 					putchar('0' + j);
 					putchar('0' + k);
 					if (i + j + k != 24)
+					{
 						putchar(',');
 						putchar(' ');
+					}
 				}
 
 				k++;
