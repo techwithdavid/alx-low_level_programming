@@ -10,13 +10,13 @@
  */
 int main(void)
 {
-	int _ch_s1;
+	int _c_s1;
 	int _f_d, _l_d;
 
 	int _c_s2;
 	int _f_d2, _l_d2;
 
-	_ch_s = 0;
+	_c_s = 0;
 	while (_c_1 <= 98)
 	{
 		_f_d = _c_s1 / 10;
