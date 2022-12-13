@@ -25,9 +25,9 @@ int main(void)
 					putchar('0' + i);
 					putchar('0' + j);
 					putchar('0' + k);
-
-					putchar(',');
-					putchar(' ');
+					if (i + j + k != 24)
+						putchar(',');
+						putchar(' ');
 				}
 
 				k++;
@@ -38,6 +38,8 @@ int main(void)
 
 		i++;
 	}
+
+	putchar(10);
 
 	return (0);
 }
