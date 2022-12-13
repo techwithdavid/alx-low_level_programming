@@ -10,43 +10,43 @@
  */
 int main(void)
 {
-	int _c_s1;
-	int _f_d, _l_d;
+	int c_s1;
+	int f_d, l_d;
 
-	int _c_s2;
-	int _f_d2, _l_d2;
+	int c_s2;
+	int f_d2, l_d2;
 
-	_c_s = 0;
-	while (_c_1 <= 98)
+	c_s1 = 0;
+	while (c_s1 <= 98)
 	{
-		_f_d = _c_s1 / 10;
-		_l_d = _c_s1 % 10;
+		f_d = c_s1 / 10;
+		l_d = c_s1 % 10;
 
-		_c_s = 0;
-		while (_c_s2 <= 99)
+		c_s2 = 0;
+		while (c_s2 <= 99)
 		{
-			_f_d2 = _c_s2 / 10;
-			_l_d2 = _c_s2 % 10;
+			f_d2 = c_s2 / 10;
+			l_d2 = c_s2 % 10;
 
 
-			if (_c_s1 < _c_s2)
+			if (c_s1 < c_s2)
 			{
-				putchar('0' + _f_d);
-				putchar('0' + _l_d);
+				putchar('0' + f_d);
+				putchar('0' + l_d);
 				putchar(' ');
-				putchar('0' + _f_d2);
-				putchar('0' + _l_d2);
+				putchar('0' + f_d2);
+				putchar('0' + l_d2);
 
-				if (_c_s1 != 98)
+				if (c_s1 != 98)
 				{
 					putchar(',');
 					putchar(' ');
 				}
 			}
 
-			_c_s2++;
+			c_s2++;
 		}
-		_c_s1++;
+		c_s1++;
 
 	}
 
