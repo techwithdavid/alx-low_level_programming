@@ -10,43 +10,43 @@
  */
 int main(void)
 {
-	int _char_set1;
-	int _f_digit, _l_digit;
+	int _ch_s1;
+	int _f_d, _l_d;
 
-	int _char_set2;
-	int _f_digit2, _l_digit2;
+	int _c_s2;
+	int _f_d2, _l_d2;
 
-	_char_set1 = 0;
-	while (_char_set1 <= 98)
+	_ch_s = 0;
+	while (_c_1 <= 98)
 	{
-		_f_digit = _char_set1 / 10;
-		_l_digit = _char_set1 % 10;
+		_f_d = _c_s1 / 10;
+		_l_d = _c_s1 % 10;
 
-		_char_set2 = 0;
-		while (_char_set2 <= 99)
+		_c_s = 0;
+		while (_c_s2 <= 99)
 		{
-			_f_digit2 = _char_set2 / 10;
-			_l_digit2 = _char_set2 % 10;
+			_f_d2 = _c_s2 / 10;
+			_l_d2 = _c_s2 % 10;
 
 
-			if (_char_set1 < _char_set2)
+			if (_c_s1 < _c_s2)
 			{
-				putchar('0' + _f_digit);
-				putchar('0' + _l_digit);
+				putchar('0' + _f_d);
+				putchar('0' + _l_d);
 				putchar(' ');
-				putchar('0' + _f_digit2);
-				putchar('0' + _l_digit2);
+				putchar('0' + _f_d2);
+				putchar('0' + _l_d2);
 
-				if (_char_set1 != 98)
+				if (_c_s1 != 98)
 				{
 					putchar(',');
 					putchar(' ');
 				}
 			}
 
-			_char_set2++;
+			_c_s2++;
 		}
-		_char_set1++;
+		_c_s1++;
 
 	}
 
