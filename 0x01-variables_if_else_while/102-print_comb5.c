@@ -23,7 +23,7 @@ int main(void)
 		_l_digit = _char_set1 % 10;
 
 		_char_set2 = 0;
-		while (char_set2 <= 99)
+		while (_char_set2 <= 99)
 		{
 			_f_digit2 = _char_set2 / 10;
 			_l_digit2 = _char_set2 % 10;
