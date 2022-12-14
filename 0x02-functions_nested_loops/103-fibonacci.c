@@ -14,7 +14,7 @@ int main(void)
 	j = 1;
 
 	count = 0;
-	while (count < 50)
+	while (count < 4000000)
 	{
 		res = i + j;
 		i = j;
