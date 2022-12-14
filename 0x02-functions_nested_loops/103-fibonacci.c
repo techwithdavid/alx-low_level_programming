@@ -12,7 +12,6 @@ int main(void)
 	i = 0;
 	j = 1;
 
-	count = 0;
 	while (res < 4000000)
 	{
 		res = i + j;
