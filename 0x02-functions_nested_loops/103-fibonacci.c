@@ -8,13 +8,12 @@
 int main(void)
 {
 	long int i, j, res, sum;
-	int count;
 
 	i = 0;
 	j = 1;
 
 	count = 0;
-	while (count < 4000000)
+	while (res < 4000000)
 	{
 		res = i + j;
 		i = j;
@@ -24,7 +23,6 @@ int main(void)
 		{
 			sum += res;
 		}
-		count++;
 	}
 
 	printf("%lu\n", sum);
