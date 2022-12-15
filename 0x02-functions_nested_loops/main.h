@@ -8,5 +8,6 @@ int add(int x, int y);
 int _abs(int x);
 int _islower(int c);
 int _isalpha(int c);
+int print_last_digit(int c);
 
 #endif
