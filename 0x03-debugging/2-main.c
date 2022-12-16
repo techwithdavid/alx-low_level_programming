@@ -6,8 +6,8 @@ int main(void)
 	int a, b, c;
 	int large;
 
-	a = 972;
-	b = -98;
+	a = 98;
+	b = 98;
 	c = 0;
 
 	large = largest_number(a, b, c);
