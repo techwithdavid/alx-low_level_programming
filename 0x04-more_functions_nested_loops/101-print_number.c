@@ -7,7 +7,8 @@ void print_number(int n)
 	num = n;
 	if (n < 0)
 	{
-		num = -n;
+		_putchar(45);
+		num = -num;
 	}
 
 	if (num / 10)
